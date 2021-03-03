@@ -4,9 +4,10 @@ import numpy as np
 import plotly.express as px
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
-from expertai.nlapi.edge.client import ExpertAiClient
+from expertai.nlapi.cloud.client import ExpertAiClient
 import os
 client = ExpertAiClient()
+language='en'
 
 #### This is completely Testing and educational purpose so please create your own account for free to test the Web App
 os.environ["EAI_USERNAME"] = 'hisha.azg@chillleo.com' ## Add your username 
@@ -21,9 +22,18 @@ def main():
     st.sidebar.markdown("US Airlines Tweet Analysis Using ExpertAi NLP API and Data Visualization. ")
     text=st.text_input('Enter Random Airline tweets')
     if st.button('Run'):
-        document = client.sentiment(text)
-        document2 = client.keyphrase_extraction(text)
-        document3 = client.named_entity_recognition(text)
+        document = client.specific_resource_analysis(
+                    body={"document": {"text": text}}, 
+                    params={'language': language, 'resource': 'sentiment'})
+        
+        document2 = client.specific_resource_analysis(
+                    body={"document": {"text": text}}, 
+                    params={'language': language, 'resource': 'relevants'})
+
+        document3 = client.specific_resource_analysis(
+                    body={"document": {"text": text}}, 
+                    params={'language': language, 'resource': 'entities'})
+                    
         st.write('Sentiment:', document.sentiment.overall)
         st.markdown('**Emotions**')
         if document.sentiment.overall>2 and document.sentiment.overall<25 :## emotions
