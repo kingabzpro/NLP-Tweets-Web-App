@@ -9,8 +9,8 @@ import os
 client = ExpertAiClient()
 language='en'
 #### This is completely Testing and educational purpose so please create your own account for free to test the Web App
-os.environ["EAI_USERNAME"] = 'hisha.azg@chillleo.com' ## Add your username 
-os.environ["EAI_PASSWORD"] = 'qUfJ91X3%3Ra$Z' ## Add your password
+os.environ["EAI_USERNAME"] = '' ## Add your username 
+os.environ["EAI_PASSWORD"] = '' ## Add your password
 
 def main():
     st.title("US Airline Tweet Analysis")
