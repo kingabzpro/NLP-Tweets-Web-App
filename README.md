@@ -1,7 +1,4 @@
-
-
-
-
+[<img alt="Python" src="https://img.shields.io/badge/python-ffe666?logo=python&logoColor=Black&style=for-the-badge" />](https://www.python.org/)[<img alt="Expertai" src="https://img.shields.io/badge/ExpertAi.APi-3cb67c?logo=sonarlint&logoColor=white&style=for-the-badge" />](https://www.expert.ai/)[<img alt="streamlit" src="https://img.shields.io/badge/streamlit-ff004d?logo=streamlit&logoColor=white&style=for-the-badge" />](https://www.streamlit.io/)[<img alt="plotly" src="https://img.shields.io/badge/Webapp-9978ec?logo=heroku&logoColor=white&style=for-the-badge" />](https://airline-tweets-nlp.herokuapp.com/)[<img alt="plotly" src="https://img.shields.io/badge/plotly-666698?logo=gitter&logoColor=white&style=for-the-badge" />](https://plotly.com/)[<img alt="pandas" src="https://img.shields.io/badge/pandas-3c3eb6?logo=pandas&logoColor=white&style=for-the-badge" />](https://pandas.pydata.org/) 
 
 
 ![Twitter](http://www.thesis123.com/wp-content/uploads/2019/01/Sentiment-Analysis-Twitter.png)
@@ -141,6 +138,8 @@ I have created entire app with help of Expert Ai API [Experiment](https://gitlab
 
 It took me more then 2 hours to train entire Dataset but then it stop due to concetion Erro with API so I reduced the number of rows to train my data again.
 
+[![View in Deepnote](https://deepnote.com/static/buttons/view-in-deepnote-white.svg)](https://deepnote.com/viewer/github/kingabzpro/NLP-Tweets-Web-App/blob/main/Expert.AI%20file/Dataprep.ipynb)
+
 ![image-20210215015624065](Demo/Demo3.png)
 
 I will be enhancing my App by adding more NLP features provided by Expert Ai:
@@ -154,4 +153,4 @@ I will be enhancing my App by adding more NLP features provided by Expert Ai:
 
 > Image curtesy thesis123.com
 >
-> This project helped me do start him [airline-sentiment](https://github.com/richardcsuwandi/airline-sentiment)
+> This guy's Repo have helped me alot so do start him too [richard](https://github.com/richardcsuwandi)
